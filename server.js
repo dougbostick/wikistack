@@ -15,6 +15,7 @@ const wikiRouter = require('./routes/wiki');
 const userRouter = require('./routes/users')
 
 app.use('/wiki', wikiRouter); //http://localhost:4000/wiki
+app.use('/users', userRouter); //http://localhost:4000/users
 
 
 app.get('/', (req, res) => { //http://localhost:4000/wiki
